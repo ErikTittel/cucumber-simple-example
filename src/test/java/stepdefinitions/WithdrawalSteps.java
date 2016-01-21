@@ -14,9 +14,9 @@ public class WithdrawalSteps {
     private Account account;
 
     @Given("^my account has been credited with (\\d+) Euro\\.$")
-    public void myAccountHasBeenCreditedWithEuro(int amout) {
+    public void myAccountHasBeenCreditedWithEuro(int amount) {
         account = new Account();
-        account.credit(amout);
+        account.credit(amount);
     }
 
     @When("^I withdraw (\\d+) Euro\\.$")
