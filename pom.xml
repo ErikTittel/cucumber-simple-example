@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-		<!-- Testing -->
+        <!-- Testing -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
